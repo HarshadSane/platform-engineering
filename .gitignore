@@ -1,0 +1,86 @@
+############################################
+# Terraform
+############################################
+
+# Local Terraform state
+*.tfstate
+*.tfstate.*
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Terraform CLI working directory
+.terraform/
+.terraform.lock.hcl
+**/.terraform/
+**/.terraform.lock.hcl
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
+*.tfplan.json
+
+############################################
+# Terragrunt
+############################################
+
+# Terragrunt cache directory
+**/.terraform/
+**/.terragrunt-cache/
+.terragrunt-cache/
+.terraform/
+
+# Terragrunt debug files
+terragrunt-debug.tfvars.json
+
+############################################
+# Terraform variable files
+############################################
+
+# Auto-loaded tfvars (often contain secrets)
+*.tfvars
+*.tfvars.json
+
+############################################
+# Editor / OS noise
+############################################
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ / JetBrains
+
+.idea/
+*.iml
+
+############################################
+# Logs
+############################################
+
+*.log
+
+############################################
+# Security / secrets
+############################################
+
+# Credentials
+*.pem
+*.key
+*.crt
+*.pfx
+
+# AWS credentials
+.aws/
